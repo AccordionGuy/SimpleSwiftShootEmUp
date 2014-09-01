@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D410D3B519B514D800F0CD3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410D3B419B514D800F0CD3F /* AppDelegate.swift */; };
+		D410D3B719B514D800F0CD3F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D410D3B619B514D800F0CD3F /* GameScene.sks */; };
+		D410D3B919B514D800F0CD3F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410D3B819B514D800F0CD3F /* GameScene.swift */; };
+		D410D3BB19B514D800F0CD3F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410D3BA19B514D800F0CD3F /* GameViewController.swift */; };
+		D410D3BE19B514D800F0CD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D410D3BC19B514D800F0CD3F /* Main.storyboard */; };
+		D410D3C019B514D800F0CD3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D410D3BF19B514D800F0CD3F /* Images.xcassets */; };
+		D410D3CC19B514D800F0CD3F /* ShootEmUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410D3CB19B514D800F0CD3F /* ShootEmUpTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D410D3C619B514D800F0CD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D410D3A719B514D700F0CD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D410D3AE19B514D800F0CD3F;
+			remoteInfo = ShootEmUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D410D3AF19B514D800F0CD3F /* ShootEmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootEmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D410D3B319B514D800F0CD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D410D3B419B514D800F0CD3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D410D3B619B514D800F0CD3F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D410D3B819B514D800F0CD3F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D410D3BA19B514D800F0CD3F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D410D3BD19B514D800F0CD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D410D3BF19B514D800F0CD3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D410D3C519B514D800F0CD3F /* ShootEmUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootEmUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D410D3CA19B514D800F0CD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D410D3CB19B514D800F0CD3F /* ShootEmUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootEmUpTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D410D3AC19B514D800F0CD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D410D3C219B514D800F0CD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D410D3A619B514D700F0CD3F = {
+			isa = PBXGroup;
+			children = (
+				D410D3B119B514D800F0CD3F /* ShootEmUp */,
+				D410D3C819B514D800F0CD3F /* ShootEmUpTests */,
+				D410D3B019B514D800F0CD3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D410D3B019B514D800F0CD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3AF19B514D800F0CD3F /* ShootEmUp.app */,
+				D410D3C519B514D800F0CD3F /* ShootEmUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D410D3B119B514D800F0CD3F /* ShootEmUp */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3B419B514D800F0CD3F /* AppDelegate.swift */,
+				D410D3B619B514D800F0CD3F /* GameScene.sks */,
+				D410D3B819B514D800F0CD3F /* GameScene.swift */,
+				D410D3BA19B514D800F0CD3F /* GameViewController.swift */,
+				D410D3BC19B514D800F0CD3F /* Main.storyboard */,
+				D410D3BF19B514D800F0CD3F /* Images.xcassets */,
+				D410D3B219B514D800F0CD3F /* Supporting Files */,
+			);
+			path = ShootEmUp;
+			sourceTree = "<group>";
+		};
+		D410D3B219B514D800F0CD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3B319B514D800F0CD3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D410D3C819B514D800F0CD3F /* ShootEmUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3CB19B514D800F0CD3F /* ShootEmUpTests.swift */,
+				D410D3C919B514D800F0CD3F /* Supporting Files */,
+			);
+			path = ShootEmUpTests;
+			sourceTree = "<group>";
+		};
+		D410D3C919B514D800F0CD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3CA19B514D800F0CD3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D410D3AE19B514D800F0CD3F /* ShootEmUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D410D3CF19B514D800F0CD3F /* Build configuration list for PBXNativeTarget "ShootEmUp" */;
+			buildPhases = (
+				D410D3AB19B514D800F0CD3F /* Sources */,
+				D410D3AC19B514D800F0CD3F /* Frameworks */,
+				D410D3AD19B514D800F0CD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShootEmUp;
+			productName = ShootEmUp;
+			productReference = D410D3AF19B514D800F0CD3F /* ShootEmUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D410D3C419B514D800F0CD3F /* ShootEmUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D410D3D219B514D800F0CD3F /* Build configuration list for PBXNativeTarget "ShootEmUpTests" */;
+			buildPhases = (
+				D410D3C119B514D800F0CD3F /* Sources */,
+				D410D3C219B514D800F0CD3F /* Frameworks */,
+				D410D3C319B514D800F0CD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D410D3C719B514D800F0CD3F /* PBXTargetDependency */,
+			);
+			name = ShootEmUpTests;
+			productName = ShootEmUpTests;
+			productReference = D410D3C519B514D800F0CD3F /* ShootEmUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D410D3A719B514D700F0CD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Global Nerdy";
+				TargetAttributes = {
+					D410D3AE19B514D800F0CD3F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D410D3C419B514D800F0CD3F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D410D3AE19B514D800F0CD3F;
+					};
+				};
+			};
+			buildConfigurationList = D410D3AA19B514D800F0CD3F /* Build configuration list for PBXProject "ShootEmUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D410D3A619B514D700F0CD3F;
+			productRefGroup = D410D3B019B514D800F0CD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D410D3AE19B514D800F0CD3F /* ShootEmUp */,
+				D410D3C419B514D800F0CD3F /* ShootEmUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D410D3AD19B514D800F0CD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D410D3C019B514D800F0CD3F /* Images.xcassets in Resources */,
+				D410D3B719B514D800F0CD3F /* GameScene.sks in Resources */,
+				D410D3BE19B514D800F0CD3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D410D3C319B514D800F0CD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D410D3AB19B514D800F0CD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D410D3B919B514D800F0CD3F /* GameScene.swift in Sources */,
+				D410D3BB19B514D800F0CD3F /* GameViewController.swift in Sources */,
+				D410D3B519B514D800F0CD3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D410D3C119B514D800F0CD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D410D3CC19B514D800F0CD3F /* ShootEmUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D410D3C719B514D800F0CD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D410D3AE19B514D800F0CD3F /* ShootEmUp */;
+			targetProxy = D410D3C619B514D800F0CD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D410D3BC19B514D800F0CD3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D410D3BD19B514D800F0CD3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D410D3CD19B514D800F0CD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D410D3CE19B514D800F0CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D410D3D019B514D800F0CD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ShootEmUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D410D3D119B514D800F0CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ShootEmUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D410D3D319B514D800F0CD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShootEmUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShootEmUp.app/ShootEmUp";
+			};
+			name = Debug;
+		};
+		D410D3D419B514D800F0CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShootEmUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShootEmUp.app/ShootEmUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D410D3AA19B514D800F0CD3F /* Build configuration list for PBXProject "ShootEmUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D410D3CD19B514D800F0CD3F /* Debug */,
+				D410D3CE19B514D800F0CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D410D3CF19B514D800F0CD3F /* Build configuration list for PBXNativeTarget "ShootEmUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D410D3D019B514D800F0CD3F /* Debug */,
+				D410D3D119B514D800F0CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D410D3D219B514D800F0CD3F /* Build configuration list for PBXNativeTarget "ShootEmUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D410D3D319B514D800F0CD3F /* Debug */,
+				D410D3D419B514D800F0CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D410D3A719B514D700F0CD3F /* Project object */;
+}
