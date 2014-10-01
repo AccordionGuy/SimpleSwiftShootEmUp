@@ -14,6 +14,10 @@
 		D410D3BE19B514D800F0CD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D410D3BC19B514D800F0CD3F /* Main.storyboard */; };
 		D410D3C019B514D800F0CD3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D410D3BF19B514D800F0CD3F /* Images.xcassets */; };
 		D410D3CC19B514D800F0CD3F /* ShootEmUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410D3CB19B514D800F0CD3F /* ShootEmUpTests.swift */; };
+		D410D3D619B5156600F0CD3F /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D410D3D519B5156600F0CD3F /* Images.atlas */; };
+		D410D3DB19B5157300F0CD3F /* background-music.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D410D3D819B5157300F0CD3F /* background-music.aiff */; };
+		D410D3DC19B5157300F0CD3F /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = D410D3D919B5157300F0CD3F /* explosion.wav */; };
+		D410D3DD19B5157300F0CD3F /* missile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D410D3DA19B5157300F0CD3F /* missile.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		D410D3C519B514D800F0CD3F /* ShootEmUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootEmUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D410D3CA19B514D800F0CD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D410D3CB19B514D800F0CD3F /* ShootEmUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootEmUpTests.swift; sourceTree = "<group>"; };
+		D410D3D519B5156600F0CD3F /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
+		D410D3D819B5157300F0CD3F /* background-music.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "background-music.aiff"; sourceTree = "<group>"; };
+		D410D3D919B5157300F0CD3F /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		D410D3DA19B5157300F0CD3F /* missile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missile.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,8 @@
 				D410D3BA19B514D800F0CD3F /* GameViewController.swift */,
 				D410D3BC19B514D800F0CD3F /* Main.storyboard */,
 				D410D3BF19B514D800F0CD3F /* Images.xcassets */,
+				D410D3D519B5156600F0CD3F /* Images.atlas */,
+				D410D3D719B5157300F0CD3F /* Sounds */,
 				D410D3B219B514D800F0CD3F /* Supporting Files */,
 			);
 			path = ShootEmUp;
@@ -113,6 +123,16 @@
 				D410D3CA19B514D800F0CD3F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D410D3D719B5157300F0CD3F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D410D3D819B5157300F0CD3F /* background-music.aiff */,
+				D410D3D919B5157300F0CD3F /* explosion.wav */,
+				D410D3DA19B5157300F0CD3F /* missile.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D410D3DC19B5157300F0CD3F /* explosion.wav in Resources */,
 				D410D3C019B514D800F0CD3F /* Images.xcassets in Resources */,
+				D410D3D619B5156600F0CD3F /* Images.atlas in Resources */,
+				D410D3DD19B5157300F0CD3F /* missile.mp3 in Resources */,
 				D410D3B719B514D800F0CD3F /* GameScene.sks in Resources */,
+				D410D3DB19B5157300F0CD3F /* background-music.aiff in Resources */,
 				D410D3BE19B514D800F0CD3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShootEmUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShootEmUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
