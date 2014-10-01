@@ -18,6 +18,7 @@
 		D410D3DB19B5157300F0CD3F /* background-music.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D410D3D819B5157300F0CD3F /* background-music.aiff */; };
 		D410D3DC19B5157300F0CD3F /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = D410D3D919B5157300F0CD3F /* explosion.wav */; };
 		D410D3DD19B5157300F0CD3F /* missile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D410D3DA19B5157300F0CD3F /* missile.mp3 */; };
+		D4B1B25419DBA23200F907FF /* README.mkd in Resources */ = {isa = PBXBuildFile; fileRef = D4B1B25319DBA23200F907FF /* README.mkd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D410D3D819B5157300F0CD3F /* background-music.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "background-music.aiff"; sourceTree = "<group>"; };
 		D410D3D919B5157300F0CD3F /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
 		D410D3DA19B5157300F0CD3F /* missile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missile.mp3; sourceTree = "<group>"; };
+		D4B1B25319DBA23200F907FF /* README.mkd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mkd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		D410D3A619B514D700F0CD3F = {
 			isa = PBXGroup;
 			children = (
+				D4B1B25319DBA23200F907FF /* README.mkd */,
 				D410D3B119B514D800F0CD3F /* ShootEmUp */,
 				D410D3C819B514D800F0CD3F /* ShootEmUpTests */,
 				D410D3B019B514D800F0CD3F /* Products */,
@@ -217,6 +220,7 @@
 			files = (
 				D410D3DC19B5157300F0CD3F /* explosion.wav in Resources */,
 				D410D3C019B514D800F0CD3F /* Images.xcassets in Resources */,
+				D4B1B25419DBA23200F907FF /* README.mkd in Resources */,
 				D410D3D619B5156600F0CD3F /* Images.atlas in Resources */,
 				D410D3DD19B5157300F0CD3F /* missile.mp3 in Resources */,
 				D410D3B719B514D800F0CD3F /* GameScene.sks in Resources */,
@@ -429,6 +433,7 @@
 				D410D3D119B514D800F0CD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D410D3D219B514D800F0CD3F /* Build configuration list for PBXNativeTarget "ShootEmUpTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +442,7 @@
 				D410D3D419B514D800F0CD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

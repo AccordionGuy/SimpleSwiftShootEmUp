@@ -1,0 +1,23 @@
+# A simple "Shoot 'Em Up" game in Swift and Sprite Kit
+
+![ShootEmUp](http://www.globalnerdy.com/wordpress/wp-content/uploads/2014/08/a-simple-shoot-em-up-game.jpg)
+
+This app was written as a Swift/Sprite Kit programming tutorial exercise on my tech blog, [Global Nerdy](http://www.globalnerdy.com/).
+
+This game features alien slugs (pictured on the left) that appear at random “altitudes” onscreen and travel from left to right or right to left, right in the line of fire of your ship, located near the bottom of the screen at the center. The player shoots at them by tapping on the screen; the locations of the player’s taps determine the direction of the shots.
+
+Although it’s a simple game, it introduces a fair number of concepts including:
+
+- Drawing, positioning, scaling and moving sprites with Sprite Kit
+- Operator overloading and extensions in Swift
+- Vector math
+- Responding to user taps
+- Figuring out when two sprites collide
+- Playing sound effects and a continuous soundtrack
+
+## Credit where credit is due
+
+- Much of the code is a Swift adaptation of the code in Ray Wenderlich’s September 2013 article, [Sprite Kit Tutorial for Beginners](http://www.raywenderlich.com/42699/spritekit-tutorial-for-beginners). If you’re serious about learning iOS development, you want to bookmark Ray’s site, RayWenderlich.com, the home of not just tutorial articles, but tutorial videos, very in-depth books, and even starter kits for budding iOS game developers.
+- The alien images were taken from [Backyard Ninja Design’s “Free Stuff”](http://www.dumbmanex.com/bynd_freestuff.html) page, specifically the set of sprite from their “Crapmunch” game.
+- The ship image is the one included in the example game that’s automatically created when you generate a game project.
+- The background music is [FU4](http://www.partnersinrhyme.com/pir/libs/media/FU4.wav), created by Partners in Rhyme, and can be found on their [Free Royalty-Free Music Loops](http://www.partnersinrhyme.com/pir/free_music_loops.shtml) page.
